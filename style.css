@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(56, 45, 45);
+}
+h1, h2, h3, h4, h5, h6, li, a, p{
+    font-family: Agency FB;
+    font-size: 30px;
+    color: white;
+    display: inline-block;
+}
+p{
+    display: inline-block;
+    text-decoration: none;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    padding: 11px 11px;
+    padding-bottom: 5px;
+}
+
+/* Heading Part Start From Heare */
+.main-box{
+    background-image: url(/images/city-5637906.jpg);
+    height: 657px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-box .row{
+    padding: 17px 0;
+}
+
+/* Logo Part */
+.main-box .row .container .logo{
+    float: left;
+    width: 39%;
+    padding-top: 11px;
+}
+
+/* Manu Part */
+.main-box .row .container .main-manu{
+    float: left;
+    width: 65%;
+}
+
+/* Li Huver Here */
+.main-box .row .container li:hover{
+    color: red;
+    background-image: url(/images/Background\ pic.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+.main-box .row .container li:first-child{
+    background-image: url(/images/Background\ pic.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+
+/* Banner Start From Here */
+.banner .container .banner-left{
+    float: left;
+    width: 45%;
+    margin-right: 30px;
+    padding-top: 80px;
+}
+.banner .container .banner-left .title-heading{
+    color: #1184f1;
+    font-size: 25px;
+    letter-spacing: 4px;
+}
+.banner .container .banner-left .main-heading{
+    font-size: 45px;
+    margin-top: 20px;
+}
+.banner .container .banner-left .banner-para{
+    font-size: 28px;
+    color: #b9b8ba;
+    margin-top: 20px;
+}
+
+/* img = iphon 13 bac site.png */
+.img{
+    width: 30%;
+    display: inline-block;
+    padding-top: 85px;
+    padding-left: 235px;
+}
+.baton-1{
+    background-color: #1184f1;
+    color: white;
+    padding: 8px 30px;
+    text-decoration: none;
+    transition: 1s;
+    margin-top: 50px;
+    display: inline-block;
+}
+.baton-1:hover{
+    background-color: transparent;
+    color: #1184f1;
+    border: 1px solid #1184f1;
+}
+.baton-2{
+    text-decoration: none;
+    padding: 7px 30px;
+    color: white;
+    border: 1px solid white;
+    margin-left: 12px;
+}
+
+/* Body Part Start From Here */
+.main-box .sub-title .container{
+    display: inline-block;
+    padding-top: 210px;
+    text-align: center;
+    padding-left: 132px;
+}
+.main-box .sub-title .container .center-text{
+    color: #1184f1;
+    font-size: 20px;
+}
+.main-box .sub-title .container .center-heading{
+    color: black;
+    font-size: 45px;
+    font-weight: 100;
+}
+
+/* Center Design Start From Here */
+.main-box .center-design .container .first{
+    display: block;
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding-top: 115px;
+}
+.main-box .center-design .container .first h1{
+    margin-top: 30px;
+    font-size: 45px;
+    font-weight: 100;
+    color: black;
+}
+.main-box .center-design .container .first p{
+    margin-top: 20px;
+    font-size: 28px;
+    color: #b9b8ba;
+}
+.main-box .center-design .container .second{
+    display: block;
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding-top: 115px;
+}
+.main-box .center-design .container .second h1{
+    margin-top: 30px;
+    font-size: 45px;
+    font-weight: 100;
+    color: black;
+}
+.main-box .center-design .container .second p{
+    margin-top: 20px;
+    font-size: 28px;
+    color: #b9b8ba;
+}
+.main-box .center-design .container .third{
+    display: block;
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding-top: 115px;
+}
+.main-box .center-design .container .third h1{
+    margin-top: 30px;
+    font-size: 45px;
+    font-weight: 100;
+    color: black;
+}
+.main-box .center-design .container .third p{
+    margin-top: 20px;
+    font-size: 28px;
+    color: #b9b8ba;
+}
+.main-box .center-design .container .fourth{
+    display: block;
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding-top: 115px;
+}
+.main-box .center-design .container .fourth h1{
+    margin-top: 30px;
+    font-size: 45px;
+    font-weight: 100;
+    color: black;
+}
+.main-box .center-design .container .fourth p{
+    margin-top: 20px;
+    font-size: 28px;
+    color: #b9b8ba;
+}

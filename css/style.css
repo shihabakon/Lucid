@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, li, a, p{
+    font-family: Agency FB;
+    font-size: 30px;
+    color: white;
+    display: inline-block;
+}
+p{
+    display: inline-block;
+    text-decoration: none;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Heading Part Start From Heare */
+.main-box{
+    background-image: url(../images/city-5637906.jpg);
+    height: 657px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-box .row{
+    padding: 17px 0;
+}
+
+/* Logo Part */
+.main-box .row .container .logo{
+    float: left;
+    width: 39%;
+    padding-top: 11px;
+}
+
+/* Manu Part */
+.main-box .row .container .main-manu{
+    float: left;
+    width: 65%;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    padding: 11px 11px;
+    padding-bottom: 5px;
+}
+
+/* Li Huver Here */
+.main-box .row .container li:hover{
+    color: red;
+    background-image: url(../images/Background\ pic.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+.main-box .row .container li:first-child{
+    background-image: url(../images/Background\ pic.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+/* Heading Part End Here */
+
+/* Front Part Start From Here */
+.front-text .container .front-left{
+    float: left;
+    width: 45%;
+    margin-right: 30px;
+    padding-top: 80px;
+}
+.front-text .container .front-left .title-heading{
+    color: #1184f1;
+    font-size: 25px;
+    letter-spacing: 4px;
+}
+.front-text .container .front-left .main-heading{
+    font-size: 45px;
+    margin-top: 20px;
+}
+.front-text .container .front-left .banner-para{
+    font-size: 28px;
+    color: #b9b8ba;
+    margin-top: 20px;
+}
+.baton-1{
+    background-color: #1184f1;
+    color: white;
+    padding: 8px 30px;
+    text-decoration: none;
+    transition: 1s;
+    margin-top: 50px;
+    display: inline-block;
+}
+.baton-1:hover{
+    background-color: transparent;
+    color: #1184f1;
+    border: 1px solid #1184f1;
+}
+.baton-2{
+    text-decoration: none;
+    padding: 7px 30px;
+    color: white;
+    border: 1px solid white;
+    margin-left: 12px;
+}
+/* img = iphon 13 bac site.png */
+.img{
+    width: 30%;
+    display: inline-block;
+    padding-top: 85px;
+    padding-left: 235px;
+}
+/* Front Part End Here */
+
+/* Center Top Design Start From Here */
+.main-box .sub-title .container{
+    padding-top: 210px;
+    text-align: center;
+    margin: 0 auto;
+}
+.main-box .sub-title .container p{
+    color: #1184f1;
+    font-size: 20px;
+    text-align: center;
+}
+.main-box .sub-title .container h1{
+    color: black;
+    font-size: 45px;
+    font-weight: 100;
+    text-align: center;
+}
+/* Center Top Design End Here */
+
+/* Center Design Start From Here */
+.main-box .center-design .container .first{
+    display: block;
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding-top: 115px;
+}
+.main-box .center-design .container .first h1{
+    margin-top: 30px;
+    font-size: 45px;
+    font-weight: 100;
+    color: black;
+}
+.main-box .center-design .container .first p{
+    margin-top: 20px;
+    font-size: 28px;
+    color: #b9b8ba;
+}
+.main-box .center-design .container .second{
+    display: block;
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding-top: 115px;
+}
+.main-box .center-design .container .second h1{
+    margin-top: 30px;
+    font-size: 45px;
+    font-weight: 100;
+    color: black;
+}
+.main-box .center-design .container .second p{
+    margin-top: 20px;
+    font-size: 28px;
+    color: #b9b8ba;
+}
+.main-box .center-design .container .third{
+    display: block;
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding-top: 115px;
+}
+.main-box .center-design .container .third h1{
+    margin-top: 30px;
+    font-size: 45px;
+    font-weight: 100;
+    color: black;
+}
+.main-box .center-design .container .third p{
+    margin-top: 20px;
+    font-size: 28px;
+    color: #b9b8ba;
+}
+.main-box .center-design .container .fourth{
+    display: block;
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding-top: 115px;
+}
+.main-box .center-design .container .fourth h1{
+    margin-top: 30px;
+    font-size: 45px;
+    font-weight: 100;
+    color: black;
+}
+.main-box .center-design .container .fourth p{
+    margin-top: 20px;
+    font-size: 28px;
+    color: #b9b8ba;
+}
+/* Center Design End Here */
+
+/* Center-Bootom Design Start From Here */
+.center-bootom .left-2 img{
+    float: left;
+    height: 40%;
+    width: 40%;
+    padding: 160px 0;
+}
+
+.center-bootom{
+    width: 100%;
+    margin: 0 auto;
+}
+.right-2{
+    width: 40%;
+    display: block;
+    float: right;
+    padding: 120px 0;
+}
+.center-bootom .container .right-2 .front-para{
+    color: #1184f1;
+    line-height: 50px;
+    font-size: 25px;
+    font-weight: 400;
+}
+.center-bootom .container .right-2 h1{
+    color: black;
+    font-size: 45px;
+    font-weight: 100;
+}
+.center-bootom .container .right-2 .front-para-2{
+    color: #b9b8ba;
+    font-size: 28px;
+    margin-top: 30px;
+}
+.row-2{
+    margin-top: 27px;
+}
+.left-3{
+    float: left;
+    line-height: 55px;
+    margin-top: 7px;
+}
+.right-3 p{
+    color: black;
+    line-height: 55px;
+    margin-left: 20px;
+}
+/* Center Bootom Design End Here */
+ 
